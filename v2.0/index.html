@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Audio</title>
+        <!-- Recommended meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- PyScript CSS -->
+        <link rel="stylesheet" href="https://pyscript.net/releases/2024.5.2/core.css">
+        <!-- This script tag bootstraps PyScript -->
+        <script type="module" src="https://pyscript.net/releases/2024.5.2/core.js"></script>
+    </head>
+
+    <body>
+        <!--
+        <label for="canzoni">Scegli una canzone:</label>
+        <select name="canzoni" id="canzoni">
+        </select>
+        -->
+        <div id="music_list">
+            <audio id="audio_player" controls autoplay></audio>
+        </div>
+        <button id="generate_playlist">Generate PlayList</button>
+        <p id="filename"></p>
+        <script type="py" src="./PY/app.py" config="./pyscript.toml"></script>
+    </body>
+</html>
