@@ -1,4 +1,4 @@
-name = "Lotteria Mozart v2.0"
+name = "Lotteria Mozart v3.0"
 packages = [ "beautifulsoup4", "requests" ]
 [[fetch]]
 files = ["PY/app.py", "PY/LIBRARY/domdict.py"]
