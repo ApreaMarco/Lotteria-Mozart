@@ -1,0 +1,41 @@
+#button_container {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+#button_container td, #button_container th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#button_container th {
+    background-color: #f0f0f0;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+button:active {
+    background-color: #aaa;
+}
+
+button[selected] {
+    background-color: #666;
+    color: #fff;
+}
+
+#button_container button[selected] {
+    background-color: #666;
+    color: #fff;
+}
