@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Lotteria Mozart</title>
+        <link rel="stylesheet" href="CSS/main.css" />
+        <link rel="stylesheet" href="https://pyscript.net/releases/2024.5.2/core.css">
+        <script type="module" src="https://pyscript.net/releases/2024.5.2/core.js"></script>
+    </head>
+    <body>
+        <div id="music_list">
+            <audio id="audio_player" controls autoplay></audio>
+            <p id="filename"></p>
+        </div>
+        <button id="generate_playlist">Generate PlayList</button>
+        <button id="composed_playlist">Play Composed PlayList</button>
+        <table id="button_container"></table>
+        <script type="py" src="./PY/app.py" config="./pyscript.toml"></script>
+    </body>
+</html>
