@@ -15,7 +15,7 @@ def init_app_Model():
     dizModel = {
         "base_url": "http://0.0.0.0",
         "port": "8000",
-        "folder": "../AUDIO",
+        "folder": "AUDIO",
         "extension": "mp3",
         "generate_playlist": [],
         "current_index": 0,
